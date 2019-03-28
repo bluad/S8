@@ -77,9 +77,6 @@
     <string name="re_new_pass">请再次输入新密码</string>
 
 
-
-
-
     <!-- 个人中心 -->
     <string name="language_settings">语言设置</string>
     <string name="Individual_center">个人中心</string>
@@ -144,8 +141,6 @@
     <string name="route_distance">路线总长:</string>
 
 
-
-
     <!--已完成-->
 
     <!--问题件-->
@@ -157,9 +152,6 @@
     <string name="yichang_phone">照片:</string>
     <string name="deel_result">处理结果</string>
     <string name="deel_result1">处理结果:</string>
-
-
-
 
 
     <!--结算-->
