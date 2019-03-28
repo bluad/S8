@@ -1,0 +1,203 @@
+<resources>
+    <string name="app_name">APE</string>
+    <string name="action_settings">Settings</string>
+    <string name="error_network">The network connection is abnormal. Please try again later</string>
+    <string name="app_exit">Press again to exit the app</string>
+
+    <!--网络相关-->
+    <string name="gank_net_fail">Network problems!</string>
+    <string name="gank_get_data_fail">Failed to get data</string>
+
+    <string name="clear_pad">CLEAR</string>
+    <string name="save_signature">SAVE</string>
+    <string name="cancel">cancel</string>
+    <string name="Gallery">Gallery</string>
+    <string name="photo">photo</string>
+    <string name="baidu_location">Route planning</string>
+    <string name="Navigation">Navigation</string>
+
+
+    <!--中英文-->
+    <string name="language">language</string>
+    <string name="home">Home</string>
+    <string name="Mission_detail">Mission detail</string>
+    <string name="Order_detail">Order Detail</string>
+    <string name="QR_code_scanning">QR code scanning</string>
+    <string name="scan1">The bar code into the box, you can automatically scan</string>
+    <string name="scan2">The two-dimensional code / bar code into the box, you can automatically scan</string>
+    <string name="message">Message</string>
+    <string name="save">SAVE</string>
+    <string name="sign">Sign</string>
+    <string name="daozhan">Delivery</string>
+    <string name="daoda">Delivery</string>
+    <string name="Order_information">Order Information</string>
+    <string name="sender_info">Sender Info</string>
+    <string name="receiver_info">Delivery Info</string>
+    <string name="Signature_Info">Signature Info</string>
+    <string name="Signature">Signature</string>
+    <string name="upload_photos">upload photos</string>
+    <string name="upload">upload</string>
+    <string name="site_login">site login</string>
+    <string name="Chain_stores">Chain stores login</string>
+    <string name="xian_pay">cash</string>
+    <string name="dao_pay">pay</string>
+    <string name="paisong">Delivery</string>
+    <string name="ziti">Self mention</string>
+    <string name="valuable_comments">Please enter your valuable comments</string>
+    <string name="send_info">Send Info</string>
+    <string name="arrival_info">Delivery Info</string>
+    <string name="goods_info">DESCRIPTION</string>
+    <string name="detail_goods_info">total/weight/volume</string>
+    <string name="mark_info">Job Info</string>
+    <string name="mark_info1">Job Info:</string>
+    <string name="ensure">OK</string>
+    <string name="route">Route:</string>
+    <string name="Pieces">QTY:</string>
+    <string name="Goods">DIMENSION:</string>
+    <string name="trasport_fee">Commission:</string>
+    <string name="Serial_number">No.</string>
+    <string name="goods_name">Goods Name</string>
+    <string name="goods_number">Goods Number</string>
+    <string name="remark">Note</string>
+    <string name="submit">Submit</string>
+    <string name="login">Login</string>
+
+    <string name="mark_time">time:</string>
+    <string name="mark_driver">driver:</string>
+    <string name="mark_instruction">instruction:</string>
+
+
+
+
+    <!--登录-->
+    <string name="account">account</string>
+    <string name="password">password</string>
+    <string name="password_modify">change Password</string>
+    <string name="old_password">Please enter the old password</string>
+    <string name="new_password">Please enter a new password</string>
+    <string name="re_new_pass">Please re-enter the new password</string>
+    <string name="customer_remark">Instruction</string>
+
+
+    <!-- 个人中心 -->
+    <string name="Individual_center">Individual center</string>
+    <string name="language_settings">language settings</string>
+    <string name="name">name:</string>
+    <string name="plate">plate:</string>
+    <string name="job_no">job No.:</string>
+    <string name="car_type">car type:</string>
+    <string name="phone">tel.:</string>
+    <string name="car_leng">car length:</string>
+    <string name="car_width">car width:</string>
+    <string name="car_height">car height:</string>
+    <string name="driver_address">add.:</string>
+    <string name="driver_card">card No.:</string>
+    <string name="driver_save">save</string>
+    <string name="Monthly_income">Monthly income:</string>
+    <string name="Amount_to_be_settled">Amount to be settled:</string>
+    <string name="Taken_count">Taken count</string>
+    <string name="Unfinished">Unfinished</string>
+    <string name="At_work">At work</string>
+    <string name="Change_password">Change password</string>
+    <string name="suggest_back">Suggestion</string>
+    <string name="Current_version">Current version:</string>
+    <string name="Sign_out">Sign out</string>
+    <string name="select">Select</string>
+    <string name="instant_messaging">Instant Messaging</string>
+    <string name="messages">Message</string>
+    <string name="messages1">Message</string>
+
+
+    <!--主页-->
+    <string name="Positioning">Positioning..</string>
+    <string name="main_input_number">Please input tracking number</string>
+    <string name="announcement">Notice</string>
+    <string name="latest_news">The latest news is displayed here</string>
+    <string name="Take_order">New Job</string>
+    <string name="Pick_up">Pick up</string>
+    <string name="Arrive">Delivery</string>
+    <string name="Finished">Finished</string>
+    <string name="Issue">Issue</string>
+    <string name="Settle">Settle</string>
+    <string name="Count">Count</string>
+    <string name="Finance">Finance</string>
+
+    <!--接单-->
+    <string name="Reasons_for_rejection">Reasons for rejection</string>
+    <string name="reason">Please enter the reason for rejection</string>
+    <string name="Refuse">Refuse</string>
+
+    <!--提货-->
+    <string name="Send_out">Send Out</string>
+
+    <!--到货-->
+    <string name="xiadantime">order time:</string>
+    <string name="dao_Order_number">Order number:</string>
+    <string name="dao_sender">sender:</string>
+    <string name="dao_sender_tel">sender tel:</string>
+    <string name="dao_sender_address">sender address:</string>
+    <string name="dao_recipients">Delivery:</string>
+    <string name="dao_recipients_tel">Delivery tel:</string>
+    <string name="dao_recipients_addre">Delivery TO:</string>
+    <string name="dao_acount">Pay Info</string>
+    <string name="dao_fee">fee Info:</string>
+    <string name="dao_input_signer">Please enter name</string>
+    <string name="goods_info1">Goods Info:</string>
+    <string name="route_distance">Route Distance:</string>
+    <string name="complay_name">Complay Name:</string>
+
+    <!--已完成-->
+
+    <!--问题件-->
+    <string name="Abnormal_order">ERROR</string>
+    <string name="Report_issue">Report Issue</string>
+    <string name="issue_info">Issue Info</string>
+    <string name="issue_message">Issue Message</string>
+    <string name="issue_message1">Issue Message:</string>
+    <string name="yichang_phone">photos:</string>
+    <string name="deel_result">Deel Result</string>
+    <string name="deel_result1">Deel Result:</string>
+
+
+
+
+
+
+    <!--结算-->
+    <string name="Order_settlement">Order settlement</string>
+
+    <!--统计-->
+    <string name="input_or_scan_express_no">Enter or scan the tracking number</string>
+    <string name="Performance">Performance</string>
+    <string name="Logistics">Tracking</string>
+    <string name="Taken">Taken:</string>
+    <string name="Rejected">Rejected:</string>
+    <string name="tongji_Finished">Finished:</string>
+    <string name="tongji_Unfinished">Unfinished:</string>
+    <string name="Abnormal">Abnormal:</string>
+    <string name="Take_rate">Take rate:</string>
+    <string name="Abnormal_rate">Abnormal rate:</string>
+    <string name="tongji_Order_No">Order No.:</string>
+    <string name="task_no">Task No.:</string>
+    <string name="order_number">Order No.:</string>
+    <string name="tongji_address">Address:</string>
+    <string name="destination">Destination:</string>
+
+
+    <!--财务-->
+    <string name="January">Jan.</string>
+    <string name="February">Feb.</string>
+    <string name="March">Mar.</string>
+    <string name="April">Apr.</string>
+    <string name="May">May.</string>
+    <string name="June">June.</string>
+    <string name="July">July.</string>
+    <string name="August">Aug.</string>
+    <string name="September">Sept.</string>
+    <string name="October">Oct.</string>
+    <string name="November">Nov.</string>
+    <string name="December">Dec.</string>
+
+    <string name="Amount_settled">Amount settled:</string>
+
+</resources>

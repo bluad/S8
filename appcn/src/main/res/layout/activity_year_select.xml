@@ -1,0 +1,40 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="330px"
+    android:layout_height="500px"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#00CED1"
+            android:textSize="20sp"
+            android:layout_marginTop="25px"
+            android:layout_marginBottom="30px"
+            android:text="@string/select"/>
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:background="#00CED1"
+        android:layout_height="1px"
+        android:layout_marginBottom="30px"/>
+
+    <ListView
+        android:id="@+id/formcustomspinner_list"
+        android:layout_width="330px"
+        android:layout_height="500px"
+        android:cacheColorHint="@null"
+        android:divider="@android:drawable/divider_horizontal_bright"
+        android:scrollbars="none"/>
+
+</LinearLayout>

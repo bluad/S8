@@ -1,0 +1,59 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f4f4f4"
+    android:orientation="vertical" >
+
+    <!-- title -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/blue"
+        android:gravity="center_vertical">
+
+        <ImageView
+            android:id="@+id/paidan_task_refuse_return"
+            android:layout_width="23dp"
+            android:layout_height="23dp"
+            android:src="@mipmap/back"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="5dp"
+            android:layout_alignParentLeft="true"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Reasons_for_rejection"
+            android:textSize="20sp"
+            android:textColor="@color/white"
+            android:layout_centerHorizontal="true"/>
+
+    </RelativeLayout>
+
+
+    <EditText
+        android:id="@+id/paidan_task_refuse_content"
+        style="@style/BlackSmallTextStyle"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="@drawable/edittext_corner"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:gravity="top|left"
+        android:cursorVisible="false"
+        android:paddingLeft="5dp"
+        android:paddingTop="5dp"
+        android:hint="@string/reason" />
+
+    <Button
+        android:id="@+id/paidan_task_refuse_submit"
+        android:layout_width="170dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="50dp"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/submit"
+        android:background="@mipmap/shuru"/>
+
+</LinearLayout>

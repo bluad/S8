@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- title -->
+    <RelativeLayout
+        android:id="@+id/jiesuan_biaoti"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@color/blue"
+        android:layout_alignParentTop="true">
+
+        <ImageView
+            android:id="@+id/jiesuan_express_return"
+            android:layout_width="23dp"
+            android:layout_height="23dp"
+            android:src="@mipmap/back"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="5dp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Order_settlement"
+            android:textSize="23sp"
+            android:textColor="@color/white"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/shadow"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginBottom="20dp"
+        android:layout_marginRight="10dp"
+        android:layout_below="@+id/jiesuan_biaoti">
+        <LinearLayout
+            android:id="@+id/jiesuan_daijie_account"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:background="@drawable/connor_yellow"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="20dp"
+                android:gravity="center"
+                android:text="@string/Amount_to_be_settled" />
+
+            <TextView
+                android:id="@+id/jiesuan_express_account"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:gravity="center"
+                android:text="0" />
+        </LinearLayout>
+
+        <ListView
+            android:id="@+id/jiesuan_express_list"
+            android:layout_width="match_parent"
+            android:layout_height="400dp"
+            android:layout_below="@+id/jiesuan_daijie_account"
+            android:layout_marginTop="15dp"
+            android:divider="#00000000"
+            android:dividerHeight="0dp"
+            android:listSelector="@android:color/transparent"
+            android:scrollbars="none"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/jiesuan_express_list"
+            android:src="@mipmap/bowen"/>
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

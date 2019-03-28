@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+      <string-array name="site">
+        <item>@string/site_login</item>
+        <item>@string/Chain_stores</item>
+    </string-array>   
+    
+      <string-array name="pay">
+     <item>@string/xian_pay</item>
+    <item>@string/dao_pay</item>
+    </string-array>
+      <string-array name="paisong">
+     <item>@string/paisong</item>
+    <item>@string/ziti</item>
+    </string-array>
+</resources>

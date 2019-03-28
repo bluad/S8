@@ -1,0 +1,322 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/persion_set_bg"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <!-- 个人信息 -->
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="130px"
+            android:background="@color/blue"
+            android:layout_gravity="center_vertical"
+            android:gravity="center_vertical">
+
+            <ImageView
+                android:id="@+id/setting_back"
+                android:layout_width="50px"
+                android:layout_height="50px"
+                android:src="@mipmap/back"
+                android:layout_marginLeft="30px"
+                android:layout_alignParentLeft="true"/>
+
+            <TextView
+                android:id="@+id/persion_center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Individual_center"
+                android:textSize="23sp"
+                android:textColor="@color/white"
+                android:layout_centerHorizontal="true"/>
+
+        </RelativeLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@color/page_back">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="100px"
+                android:background="@color/white"
+                android:layout_marginTop="3px">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginLeft="60px"
+                    android:layout_centerVertical="true"
+                    android:text="@string/name"/>
+
+                <EditText
+                    android:id="@+id/persion_edit_name"
+                    style="@style/BlackSmallTextStyle"
+                    android:layout_width="500px"
+                    android:layout_height="80px"
+                    android:background="@drawable/edittext_grey"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="30px"
+                    android:layout_centerVertical="true"
+                    android:paddingLeft="10px" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="100px"
+                android:visibility="gone"
+                android:background="@color/white"
+                android:layout_marginTop="3px">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginLeft="60px"
+                    android:layout_centerVertical="true"
+                    android:text="@string/job_no"/>
+
+                <EditText
+                    android:id="@+id/persion_edit_username"
+                    style="@style/BlackSmallTextStyle"
+                    android:layout_width="500px"
+                    android:layout_height="80px"
+                    android:background="@drawable/edittext_grey"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="30px"
+                    android:layout_centerVertical="true"
+                    android:editable="false"
+                    android:paddingLeft="10px" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="100px"
+                android:background="@color/white"
+                android:visibility="gone"
+                android:layout_marginTop="3px">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginLeft="60px"
+                    android:layout_centerVertical="true"
+                    android:text="@string/plate"/>
+
+                <EditText
+                    android:id="@+id/persion_edit_vehicleNo"
+                    style="@style/BlackSmallTextStyle"
+                    android:layout_width="500px"
+                    android:layout_height="80px"
+                    android:background="@drawable/edittext_grey"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="30px"
+                    android:layout_centerVertical="true"
+                    android:paddingLeft="10px" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="100px"
+                android:background="@color/white"
+                android:visibility="gone"
+                android:layout_marginTop="3px">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginLeft="60px"
+                    android:layout_centerVertical="true"
+                    android:text="@string/car_type"/>
+
+                <EditText
+                    android:id="@+id/persion_edit_vehicleType"
+                    style="@style/BlackSmallTextStyle"
+                    android:layout_width="500px"
+                    android:layout_height="80px"
+                    android:background="@drawable/edittext_grey"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="30px"
+                    android:layout_centerVertical="true"
+                    android:paddingLeft="10px" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="100px"
+                android:background="@color/white"
+                android:layout_marginTop="3px">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginLeft="60px"
+                    android:layout_centerVertical="true"
+                    android:text="@string/phone"/>
+
+                <EditText
+                    android:id="@+id/persion_edit_phone"
+                    style="@style/BlackSmallTextStyle"
+                    android:layout_width="500px"
+                    android:layout_height="80px"
+                    android:background="@drawable/edittext_grey"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="30px"
+                    android:layout_centerVertical="true"
+                    android:paddingLeft="10px" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="100px"
+                android:background="@color/white"
+                android:visibility="gone"
+                android:layout_marginTop="3px">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginLeft="60px"
+                    android:layout_centerVertical="true"
+                    android:text="@string/car_leng"/>
+
+                <EditText
+                    android:id="@+id/persion_edit_length"
+                    style="@style/BlackSmallTextStyle"
+                    android:layout_width="500px"
+                    android:layout_height="80px"
+                    android:background="@drawable/edittext_grey"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="30px"
+                    android:layout_centerVertical="true"
+                    android:paddingLeft="10px" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="100px"
+                android:background="@color/white"
+                android:visibility="gone"
+                android:layout_marginTop="3px">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginLeft="60px"
+                    android:layout_centerVertical="true"
+                    android:text="@string/car_width"/>
+
+                <EditText
+                    android:id="@+id/persion_edit_width"
+                    style="@style/BlackSmallTextStyle"
+                    android:layout_width="500px"
+                    android:layout_height="80px"
+                    android:background="@drawable/edittext_grey"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="30px"
+                    android:layout_centerVertical="true"
+                    android:paddingLeft="10px" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="100px"
+                android:background="@color/white"
+                android:visibility="gone"
+                android:layout_marginTop="3px">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginLeft="60px"
+                    android:layout_centerVertical="true"
+                    android:text="@string/car_height"/>
+
+                <EditText
+                    android:id="@+id/persion_edit_height"
+                    style="@style/BlackSmallTextStyle"
+                    android:layout_width="500px"
+                    android:layout_height="80px"
+                    android:background="@drawable/edittext_grey"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="30px"
+                    android:layout_centerVertical="true"
+                    android:paddingLeft="10px" />
+            </RelativeLayout>
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="100px"
+                android:background="@color/white"
+                android:layout_marginTop="3px">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginLeft="60px"
+                    android:layout_centerVertical="true"
+                    android:text="@string/driver_address"/>
+
+                <EditText
+                    android:id="@+id/persion_edit_address"
+                    style="@style/BlackSmallTextStyle"
+                    android:layout_width="500px"
+                    android:layout_height="80px"
+                    android:background="@drawable/edittext_grey"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="30px"
+                    android:layout_centerVertical="true"
+                    android:paddingLeft="10px" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="100px"
+                android:background="@color/white"
+                android:layout_marginTop="3px">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginLeft="60px"
+                    android:layout_centerVertical="true"
+                    android:text="@string/driver_card"/>
+
+                <EditText
+                    android:id="@+id/persion_edit_bankCardNum"
+                    style="@style/BlackSmallTextStyle"
+                    android:layout_width="500px"
+                    android:layout_height="80px"
+                    android:background="@drawable/edittext_grey"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="30px"
+                    android:layout_centerVertical="true"
+                    android:paddingLeft="10px" />
+            </RelativeLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white">
+        <Button
+            android:id="@+id/button_persion_modify"
+            android:layout_width="match_parent"
+            android:layout_height="100px"
+            android:layout_marginTop="20px"
+            android:background="@mipmap/login_out"
+            android:text="@string/driver_save"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+</LinearLayout>

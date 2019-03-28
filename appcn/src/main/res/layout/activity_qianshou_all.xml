@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- title -->
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@color/blue"
+            android:gravity="center_vertical">
+
+            <ImageView
+                android:id="@+id/qianshou_all_return"
+                android:layout_width="23dp"
+                android:layout_height="23dp"
+                android:src="@mipmap/back"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="5dp"
+                android:layout_alignParentLeft="true"/>
+
+            <TextView
+                android:id="@+id/persion_center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/sign"
+                android:textSize="20sp"
+                android:textColor="@color/white"
+                android:layout_centerHorizontal="true"/>
+
+        </RelativeLayout>
+
+        <!--到付款信息-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_marginTop="20dp"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_width="16dp"
+                android:layout_height="16dp"
+                android:src="@mipmap/information"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="15dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="2dp"
+                android:text="@string/daishoukuaninfo"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/completion_daishou_L"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:layout_marginLeft="55dp"
+            android:visibility="gone"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="45dp"
+                android:textColor="@color/red"
+                android:text="@string/daishouhuokuan"/>
+
+            <TextView
+                android:id="@+id/complete_account"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/red"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/checkBoxL"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:layout_marginLeft="55dp"
+            android:visibility="gone"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_marginRight="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/gouxuan"
+                android:textColor="@color/red"/>
+
+            <CheckBox
+                android:id="@+id/completion_checkbox"
+                android:layout_width="25dp"
+                android:layout_height="25dp"/>
+        </LinearLayout>
+
+        <!--签收人信息-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_marginTop="20dp"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_width="16dp"
+                android:layout_height="16dp"
+                android:src="@mipmap/bluepeople"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="15dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="2dp"
+                android:text="@string/Signature_Info"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="52dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="3dp"
+                android:src="@mipmap/star"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"
+                android:text="@string/Signature"/>
+
+            <EditText
+                android:id="@+id/click_qianshou"
+                android:layout_width="200dp"
+                android:layout_height="28dp"
+                style="@style/BlackSmallTextStyle"
+                android:background="@drawable/edittext_grey"
+                android:paddingLeft="15dp"
+                android:focusable="false"
+                android:editable="false"
+                android:cursorVisible="false"
+                android:hint="@string/dao_input_signer"/>
+
+        </LinearLayout>
+
+
+        <ImageView
+            android:layout_width="300px"
+            android:layout_height="300px"
+            android:layout_marginTop="20px"
+            android:layout_marginLeft="30px"
+            android:background="#FFFFFF"
+            android:id="@+id/qianshou_username"/>
+
+
+    </LinearLayout>
+
+    <!--上传照片-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="16dp"
+            android:layout_height="16dp"
+            android:src="@mipmap/camera"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="15dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="2dp"
+            android:text="@string/upload_photos"/>
+    </LinearLayout>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/qianshouAll_submit_picAddr"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="80px"
+        android:choiceMode="singleChoice"
+        android:divider="@null"
+        android:fadingEdge="none"
+        android:listSelector="@android:color/transparent"
+        android:scrollbarStyle="outsideOverlay"
+        app:layoutManager="android.support.v7.widget.GridLayoutManager"
+        app:spanCount="3"
+        tools:listitem="@layout/list_item_image"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="5dp"
+        android:layout_height="1dp"
+        android:background="@color/gray_line" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal">
+        <Button
+            android:id="@+id/qiaoshou_button"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_marginTop="30dp"
+            android:background="@color/blue"
+            android:textSize="18sp"
+            android:text="@string/sign"/>
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/order"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginLeft="20dp"
+    android:layout_marginRight="20dp"
+    android:background="@drawable/connor"
+    android:orientation="vertical"
+    android:paddingBottom="8dp"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+      
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50px"
+            android:layout_marginBottom="24px"
+            android:background="@drawable/connor_yellow"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:layout_marginLeft="20px"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:src="@mipmap/car"
+                android:text="@string/xiadantime"
+                android:textColor="#000000"
+                android:textSize="16sp" />
+
+            <TextView
+                 android:layout_marginLeft="16px"
+                android:id="@+id/sendpdate"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:maxLength="19"
+                android:textColor="#000000"
+                android:textSize="16sp" />
+        </LinearLayout>
+
+        <LinearLayout
+              android:layout_marginLeft="20px"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical" >
+<LinearLayout
+    android:id="@+id/ll_express"
+    android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            style="@style/BlackMSmallTextStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/dao_Order_number" />
+
+        <TextView
+            android:id="@+id/main_express_no"
+            style="@style/BlackMSmallTextStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/blue" />
+    </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        android:id="@+id/name"
+                        style="@style/BlackMSmallTextStyle"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/dao_sender" />
+
+                    <TextView
+                        style="@style/BlackMSmallTextStyle"
+                        android:id="@+id/sender"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                         />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_marginLeft="4px"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        style="@style/BlackMSmallTextStyle"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/dao_sender_tel" />
+
+                    <TextView
+                          style="@style/BlackMSmallTextStyle"
+                        android:id="@+id/sendphone"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/blue"
+                         />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <TextView
+                      style="@style/BlackMSmallTextStyle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/dao_sender_address"
+                    />
+
+                <TextView
+                      style="@style/BlackMSmallTextStyle"
+                    android:id="@+id/address"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                     />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+              android:layout_marginLeft="20px"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical" >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                          style="@style/BlackMSmallTextStyle"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/goods_info1"
+                      />
+
+                    <TextView
+                          style="@style/BlackMSmallTextStyle"
+                        android:id="@+id/huopin"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                       />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/mark_info1"
+                          style="@style/BlackMSmallTextStyle"
+                        />
+
+                    <TextView
+                          style="@style/BlackMSmallTextStyle"
+                        android:id="@+id/note"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                     />
+                </LinearLayout>
+            </LinearLayout>
+
+            <TextView
+                style="@style/WhiteMSmallTextStyle"
+                android:gravity="center"
+                android:layout_marginRight="20px"
+                android:text="grab"
+                android:background="@color/blue"
+                android:id="@+id/tongji_ye_ji"
+                android:layout_width="112px"
+                android:layout_height="66px"
+                android:visibility="gone"
+                android:layout_gravity="center"
+                />
+        </LinearLayout>
+<!-- 
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/distence"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:background="#cccccc"
+                android:text="999m" />
+        </LinearLayout> -->
+    </LinearLayout>
+
+</LinearLayout>

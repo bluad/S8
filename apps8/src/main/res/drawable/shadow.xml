@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android" >
+    <!-- 阴影部分 最下面一层 -->
+    <item >
+        <shape android:shape="rectangle" >
+            <gradient
+                android:angle="90"
+                android:endColor="@color/bg"
+                android:startColor="@color/roundColor_svprogresshuddefault" />
+            <corners android:radius="10dp" />
+        </shape>
+    </item>
+    <item
+        android:right="1dp"
+        android:left="1dp"
+        android:bottom="1dp">
+        <selector>
+            <item android:state_focused="false" android:state_pressed="true" >
+                <shape android:shape="rectangle" >
+                    <solid android:color="@color/roundColor_svprogresshuddefault"/>
+                    <corners android:radius="10dp" />
+                </shape>
+            </item>
+            <item>
+                <shape android:shape="rectangle" >
+                    <solid android:color="@color/white"/>
+                    <corners android:radius="10dp" />
+                </shape>
+            </item>
+        </selector>
+    </item>
+</layer-list>

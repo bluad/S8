@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+   
+        <ImageView
+            android:scaleType="fitXY"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@mipmap/yindao" />
+
+        <Button
+            android:id="@+id/btn"
+            android:layout_width="600px"
+            android:layout_height="110px"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="92dp"
+            android:background="@drawable/tiyan_tiyan"
+            android:gravity="bottom"
+            android:textStyle="bold" />
+
+</RelativeLayout>

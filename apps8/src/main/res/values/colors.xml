@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="main_color">#5CB85C</color>
+    <color name="holo_blue">#FF33E5B5</color>
+    <color name="blue">#28a8ff</color>
+    <color name="page_back">#fff2f2f2</color>
+    <color name="title_color">#485884</color>
+    <color name="logo_text_color">#ff7f7f7f</color>
+    <color name="white">#ffffffff</color>
+    <color name="main_text_color">#666666</color>
+    <color name="login_with_other_plat_text_color">#ff383838</color>
+    <color name="dialog_white_bg">#fbfbfb</color>
+    <color name="black">#000000</color>
+    <color name="gray">#808080</color>
+    <color name="bg">#f3f3f3</color>
+    <color name="red">#FF0000</color>
+    <color name="pink">#E64D5E</color>
+    <color name="orange">#FB9114</color>
+    <color name="green">#99cc33</color>
+    <color name="ivory">#FFFFF0</color>
+    <color name="gray_line">#a0a0a0</color>
+    <color name="bg_gray">#F2F2F0</color>
+    <color name="bg_color">#EDEDED</color>
+    <color name="bg_homepage_roseo">#e854e8</color>
+    <color name="bg_homepage_deepblue">#2190f4</color>
+    <color name="bg_homepage_orange">#ec6c1f</color>
+    <color name="bg_homepage_green">#8fc31f</color>
+    <color name="bg_homepage_red">#f76161</color>
+    <color name="bg_homepage_blue">#16bfd3</color>
+    <color name="homepage_edit_search">#535353</color>
+    <color name="transparent">#00000000</color>
+    <color name="citylist_line">#d9d9d9</color>
+    <color name="blockdetail_bg">#fefefe</color>
+    <color name="blockdetail_txt">#030303</color>
+    <color name="result_view">#b0000000</color>
+    <color name="viewfinder_frame">#ff000000</color>
+    <color name="viewfinder_laser">#ffff0000</color>
+    <color name="viewfinder_mask">#60000000</color>
+    <color name="possible_result_points">#c0ffff00</color>
+    <color name="toast_font_color">#CCCC99</color>
+
+    <!-- Elena_wang begin -->
+    <color name="help_c">#E7675C</color>
+    <color name="help_t">#FF8095</color>
+    <color name="help_l">#72C7E6</color>
+    <color name="myself_tab_f">#E64D5E</color>
+    <color name="myself_tab_n">#3C3C3C</color>
+    <color name="login_orange">#EA5504</color>
+    <color name="login_gray">#C9C9C9</color>
+    <color name="oper_blue">#230cea</color>
+    <!-- Elena_wang end -->
+    <color name="common_red_color">#f48ca5</color>
+    <color name="common_groy_color">#888888</color>
+    <color name="common_blue_color">#230cea</color>
+
+    <!-- 新定义 -->
+    <color name="common_bg_gray">#f1f1f1</color>
+    <color name="orange_red">#ea5404</color>
+    <color name="dark_gray">#cccccc</color>
+    <color name="alipha_black">#90000000</color>
+    <color name="itc_theme_item_bg">#FFFFFF</color>
+    <color name="print_black">#505050</color>
+    <color name="itc_head_title_normal">#22292c</color>
+    <color name="gray_lighter">#89d1d1d1</color>
+    <color name="print_blue">#499BC6</color>
+    <color name="itc_theme_commit_time">#AAAAAA</color>
+    <color name="itc_font_color">#454545</color>
+    <color name="itc_user_name">#576B95</color>
+    <color name="itc_theme_item_line">#ddded0</color>
+    <color name="itc_text_color_hint">#bcbcbc</color>
+    <color name="itc_login_color_text">#555555</color>
+    <color name="login_backcolor">#F3F5F4</color>
+    <color name="login_btn">#999999</color>
+    <color name="login_btn_n">#FF3535</color>
+    <color name="province_line_border">#C7C7C7</color>
+    <color name="alertdialog_line">#c6c6c6</color>
+    <color name="actionsheet_blue">#037BFF</color>
+    <color name="siver">#c0c0c0</color>
+    <color name="yellow">#ffff00</color>
+    <color name="yellowdark">#ffd47f</color>
+    <color name="yellowdeep">#FFA54F</color>
+
+    <!-- 标题颜色 -->
+    <color name="textColor_svprogresshuddefault_msg">#000000</color>
+    <color name="roundColor_svprogresshuddefault">#e5e5e5</color>
+    <color name="roundProgressColor_svprogresshuddefault">@android:color/black</color>
+
+    <!-- 弹框所需颜色 -->
+    <color name="caiwu_month">#c8defc</color>
+
+    <!-- 覆盖颜色 -->
+    <color name="bgColor_overlay">#60000000</color>
+    <color name="bgColor_overlay_black">#95000000</color>
+    <!-- 窗口背景颜色 -->
+    <color name="bgColor_svprogressdefaultview">@android:color/white</color>
+    <!-- 标题颜色 -->
+
+
+    <!-- 蓝牙颜色 -->
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="head_blue">#238bf7</color>
+    <color name="rice_white">#f7f7f7</color>
+    <color name="drak_pink">#e9e9e9</color>
+    <color name="black90">#383431</color><!--黑色 -->
+    <color name="dimgray">#696969</color><!--暗灰色 -->
+    <color name="whitesmoke">#F5F5F5</color><!--烟白色 -->
+</resources>

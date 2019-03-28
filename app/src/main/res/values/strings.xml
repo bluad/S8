@@ -1,0 +1,207 @@
+<resources>
+    <string name="app_name">APE</string>
+    <string name="action_settings">Settings</string>
+    <string name="error_network">网络连接异常，请稍后重试</string>
+    <string name="app_exit">再按一次退出应用！</string>
+
+    <!--网络相关-->
+    <string name="gank_net_fail">网络出问题啦</string>
+    <string name="gank_get_data_fail">获取数据失败</string>
+
+    <string name="clear_pad">清除</string>
+    <string name="save_signature">保存</string>
+    <string name="cancel">取消</string>
+    <string name="Gallery">图库</string>
+    <string name="photo">拍照</string>
+    <string name="baidu_location">路线规划</string>
+    <string name="Navigation">导航</string>
+
+    <string name="mark_time">时间:</string>
+    <string name="mark_driver">司机:</string>
+    <string name="mark_instruction">备注:</string>
+
+
+    <!--中英文-->
+    <string name="language">语言</string>
+    <string name="home">首页</string>
+    <string name="Mission_detail">任务详情</string>
+    <string name="Order_detail">运单详情</string>
+    <string name="QR_code_scanning">二维码扫描</string>
+    <string name="scan1">将条码放入框内，即可自动扫描</string>
+    <string name="scan2">将二维码/条码放入框内，即可自动扫描</string>
+    <string name="message">消息</string>
+    <string name="save">保存</string>
+    <string name="sign">签收</string>
+    <string name="daozhan">到站</string>
+    <string name="daoda">到达</string>
+    <string name="Order_information">单号信息</string>
+    <string name="sender_info">寄件人信息</string>
+    <string name="receiver_info">收件人信息</string>
+    <string name="Signature_Info">签收人信息</string>
+    <string name="Signature">签收人</string>
+    <string name="upload_photos">上传照片</string>
+    <string name="upload">上传</string>
+    <string name="site_login">网点登录</string>
+    <string name="Chain_stores">分拨中心登录</string>
+    <string name="xian_pay">现付</string>
+    <string name="dao_pay">到付</string>
+    <string name="paisong">派送</string>
+    <string name="ziti">自提</string>
+    <string name="valuable_comments">请输入你的宝贵意见</string>
+    <string name="send_info">发货信息</string>
+    <string name="arrival_info">到货信息</string>
+    <string name="goods_info">货品信息</string>
+    <string name="detail_goods_info">货物件数/总重量/总体积</string>
+    <string name="mark_info">备注信息</string>
+    <string name="mark_info1">备注信息:</string>
+    <string name="ensure">确定</string>
+    <string name="route">线路:</string>
+    <string name="Pieces">运单数量:</string>
+    <string name="Goods">货物总数:</string>
+    <string name="trasport_fee">运费佣金:</string>
+    <string name="Serial_number">序号</string>
+    <string name="goods_name">货物名称</string>
+    <string name="goods_number">货物件数</string>
+    <string name="remark">备注</string>
+    <string name="submit">提交</string>
+    <string name="login">登录</string>
+    <string name="customer_remark">客户备注信息</string>
+
+
+
+    <!--登录-->
+    <string name="account">账号</string>
+    <string name="password">密码</string>
+    <string name="password_modify">密码修改</string>
+    <string name="old_password">请输入旧密码</string>
+    <string name="new_password">请输入新密码</string>
+    <string name="re_new_pass">请再次输入新密码</string>
+
+
+
+
+
+    <!-- 个人中心 -->
+    <string name="language_settings">语言设置</string>
+    <string name="Individual_center">个人中心</string>
+    <string name="name">姓名:</string>
+    <string name="plate">车牌:</string>
+    <string name="job_no">工号:</string>
+    <string name="car_type">车型:</string>
+    <string name="phone">电话:</string>
+    <string name="car_leng">车长:</string>
+    <string name="car_width">车宽:</string>
+    <string name="car_height">车高:</string>
+    <string name="driver_address">地址:</string>
+    <string name="driver_card">卡号:</string>
+    <string name="driver_save">保存</string>
+    <string name="Monthly_income">本月收入:</string>
+    <string name="Amount_to_be_settled">待结金额:</string>
+    <string name="Taken_count">本月接单</string>
+    <string name="Unfinished">待完成</string>
+    <string name="At_work">上班接单</string>
+    <string name="Change_password">修改密码</string>
+    <string name="suggest_back">建议反馈</string>
+    <string name="Current_version">当前版本:</string>
+    <string name="Sign_out">退出登录</string>
+    <string name="select">请选择</string>
+    <string name="instant_messaging">即时通讯</string>
+    <string name="messages">信息</string>
+    <string name="messages1">消息</string>
+
+
+    <!--主页-->
+    <string name="Positioning">定位中..</string>
+    <string name="main_input_number">请输入包裹单号</string>
+    <string name="announcement">通知</string>
+    <string name="latest_news">最新的消息展示在这里</string>
+    <string name="Take_order">接单</string>
+    <string name="Pick_up">提货</string>
+    <string name="Arrive">到货</string>
+    <string name="Finished">已完成</string>
+    <string name="Issue">问题件</string>
+    <string name="Settle">结算</string>
+    <string name="Count">统计</string>
+    <string name="Finance">财务</string>
+
+    <!--接单-->
+    <string name="Reasons_for_rejection">拒单原因</string>
+    <string name="reason">请填写拒单理由</string>
+    <string name="Refuse">拒单</string>
+
+    <!--提货-->
+    <string name="Send_out">提货发车</string>
+
+    <!--到货-->
+    <string name="xiadantime">下单时间:</string>
+    <string name="dao_Order_number">运单号:</string>
+    <string name="dao_sender">寄件人:</string>
+    <string name="dao_sender_tel">寄件人电话:</string>
+    <string name="dao_sender_address">提货地点:</string>
+    <string name="dao_recipients">收件人:</string>
+    <string name="dao_recipients_tel">收件人电话:</string>
+    <string name="dao_recipients_addre">到货地点:</string>
+    <string name="dao_acount">到付款信息</string>
+    <string name="dao_fee">费用信息:</string>
+    <string name="dao_input_signer">请填写签收人</string>
+    <string name="goods_info1">货品信息:</string>
+    <string name="route_distance">路线总长:</string>
+
+
+
+
+    <!--已完成-->
+
+    <!--问题件-->
+    <string name="Abnormal_order">异常运单</string>
+    <string name="Report_issue">提报异常</string>
+    <string name="issue_info">异常描述</string>
+    <string name="issue_message">异常信息</string>
+    <string name="issue_message1">异常信息:</string>
+    <string name="yichang_phone">照片:</string>
+    <string name="deel_result">处理结果</string>
+    <string name="deel_result1">处理结果:</string>
+
+
+
+
+
+    <!--结算-->
+    <string name="Order_settlement">任务单结算</string>
+
+    <!--统计-->
+    <string name="input_or_scan_express_no">输入或扫描运单号</string>
+    <string name="Performance">业绩</string>
+    <string name="Logistics">物流记录</string>
+    <string name="Taken">年度接单数量:</string>
+    <string name="Rejected">拒单数量:</string>
+    <string name="tongji_Finished">完成数量:</string>
+    <string name="tongji_Unfinished">待完成数量:</string>
+    <string name="Abnormal">异常数量:</string>
+    <string name="Take_rate">接单率:</string>
+    <string name="Abnormal_rate">异常率:</string>
+    <string name="tongji_Order_No">运单编号:</string>
+    <string name="task_no">任务编号:</string>
+    <string name="order_number">运单号:</string>
+    <string name="tongji_address">地址:</string>
+    <string name="destination">目的地:</string>
+    <string name="complay_name">公司名称:</string>
+
+    <!--财务-->
+    <string name="January">1月</string>
+    <string name="February">2月</string>
+    <string name="March">3月</string>
+    <string name="April">4月</string>
+    <string name="May">5月</string>
+    <string name="June">6月</string>
+    <string name="July">7月</string>
+    <string name="August">8月</string>
+    <string name="September">9月</string>
+    <string name="October">10月</string>
+    <string name="November">11月</string>
+    <string name="December">12月</string>
+
+    <string name="Amount_settled">已结金额:</string>
+
+
+</resources>

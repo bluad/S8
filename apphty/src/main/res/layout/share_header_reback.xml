@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="44dp"
+    android:background="@color/blue" >
+
+    <RelativeLayout
+        android:id="@+id/btn_share_header_reback_reback"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp" >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_centerVertical="true"
+            android:layout_marginBottom="12dp"
+            android:layout_marginTop="12dp"
+            android:background="@drawable/return_return"
+            android:translationX="5dp"
+             />
+    </RelativeLayout>
+    
+
+    <TextView
+        android:id="@+id/tv_share_header_reback_title"
+        style="@style/BlackMiddleTextStyle"
+        android:layout_width="wrap_content"
+        android:textColor="@color/white"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:singleLine="true" />
+
+    <LinearLayout
+        android:id="@+id/layout_share_header_reback"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="10dp"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:id="@+id/iv_share_header_reback"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="12dp"
+            android:layout_marginTop="12dp"
+            android:src="@mipmap/share_header_right"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/tv_share_header_reback_function"
+            style="@style/BlackSmallTextStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:textColor="@color/white"
+            android:gravity="center"
+            android:visibility="gone" />
+    </LinearLayout>
+
+</RelativeLayout>

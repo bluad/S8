@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="hit-http-library">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/app/libs/hit-http-library.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

@@ -1,0 +1,548 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- title -->
+    <RelativeLayout
+        android:id="@+id/caiwu_biaoti"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@color/blue"
+        android:layout_alignParentTop="true">
+
+        <ImageView
+            android:id="@+id/caiwu_express_return"
+            android:layout_width="23dp"
+            android:layout_height="23dp"
+            android:src="@mipmap/back"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="5dp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Finance"
+            android:textSize="23sp"
+            android:textColor="@color/white"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"/>
+
+    </RelativeLayout>
+
+
+    <LinearLayout
+        android:id="@+id/caiwu_date_title"
+        android:layout_width="match_parent"
+        android:layout_marginTop="15dp"
+        android:layout_height="35dp"
+        android:layout_below="@+id/caiwu_biaoti"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/year_select"
+            style="@style/BlackSmallTextStyle"
+            android:layout_width="100dp"
+            android:layout_height="35dp"
+            android:background="@drawable/edittext_year"
+            android:cursorVisible="false"
+            android:gravity="center_horizontal|center_vertical"
+            android:textColor="#999999"
+            android:textSize="17sp"/>
+        <View
+            android:layout_width="2px"
+            android:layout_height="35dp"
+            android:background="#dbdbdb" />
+
+        <HorizontalScrollView
+            android:id="@+id/textview_ScrollView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:scrollbars="none">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+                        <View
+                            android:layout_height="2px"
+                            android:layout_width="match_parent"
+                            android:background="#dbdbdb"/>
+
+                        <TextView
+                            android:id="@+id/January"
+                            android:layout_width="75dp"
+                            android:layout_height="33dp"
+                            android:clickable="true"
+                            android:focusable="true"
+                            android:gravity="center_vertical|center_horizontal"
+                            android:text="@string/January"/>
+
+                        <View
+                            android:layout_height="2px"
+                            android:layout_width="match_parent"
+                            android:background="#dbdbdb"/>
+                    </LinearLayout>
+
+                    <View
+                        android:layout_height="match_parent"
+                        android:layout_width="2px"
+                        android:background="#dbdbdb"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+                        <View
+                            android:layout_height="2px"
+                            android:layout_width="match_parent"
+                            android:background="#dbdbdb"/>
+
+                        <TextView
+                            android:id="@+id/February"
+                            android:layout_width="75dp"
+                            android:layout_height="33dp"
+                            android:clickable="true"
+                            android:focusable="true"
+                            android:gravity="center_vertical|center_horizontal"
+                            android:text="@string/February"/>
+
+                        <View
+                            android:layout_height="2px"
+                            android:layout_width="match_parent"
+                            android:background="#dbdbdb"/>
+                    </LinearLayout>
+
+                    <View
+                        android:layout_height="match_parent"
+                        android:layout_width="2px"
+                        android:background="#dbdbdb"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+                        <View
+                            android:layout_height="2px"
+                            android:layout_width="match_parent"
+                            android:background="#dbdbdb"/>
+
+                        <TextView
+                            android:id="@+id/March"
+                            android:layout_width="75dp"
+                            android:layout_height="33dp"
+                            android:clickable="true"
+                            android:gravity="center_vertical|center_horizontal"
+                            android:text="@string/March"/>
+
+                        <View
+                            android:layout_height="2px"
+                            android:layout_width="match_parent"
+                            android:background="#dbdbdb"/>
+                    </LinearLayout>
+
+                    <View
+                        android:layout_height="match_parent"
+                        android:layout_width="2px"
+                        android:background="#dbdbdb"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+                        <View
+                            android:layout_height="2px"
+                            android:layout_width="match_parent"
+                            android:background="#dbdbdb"/>
+
+                        <TextView
+                            android:id="@+id/April"
+                            android:layout_width="75dp"
+                            android:layout_height="33dp"
+                            android:clickable="true"
+                            android:gravity="center_vertical|center_horizontal"
+                            android:text="@string/April"/>
+
+                        <View
+                            android:layout_height="2px"
+                            android:layout_width="match_parent"
+                            android:background="#dbdbdb"/>
+                    </LinearLayout>
+
+                    <View
+                        android:layout_height="match_parent"
+                        android:layout_width="2px"
+                        android:background="#dbdbdb"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+                        <View
+                            android:layout_height="2px"
+                            android:layout_width="match_parent"
+                            android:background="#dbdbdb"/>
+
+                        <TextView
+                            android:id="@+id/May"
+                            android:layout_width="75dp"
+                            android:layout_height="33dp"
+                            android:clickable="true"
+                            android:gravity="center_vertical|center_horizontal"
+                            android:text="@string/May"/>
+
+                        <View
+                            android:layout_height="2px"
+                            android:layout_width="match_parent"
+                            android:background="#dbdbdb"/>
+                    </LinearLayout>
+
+                    <View
+                        android:layout_height="match_parent"
+                        android:layout_width="2px"
+                        android:background="#dbdbdb"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+                        <View
+                            android:layout_height="2px"
+                            android:layout_width="match_parent"
+                            android:background="#dbdbdb"/>
+
+                        <TextView
+                            android:id="@+id/June"
+                            android:layout_width="75dp"
+                            android:layout_height="33dp"
+                            android:clickable="true"
+                            android:gravity="center_vertical|center_horizontal"
+                            android:text="@string/June"/>
+
+                        <View
+                            android:layout_height="2px"
+                            android:layout_width="match_parent"
+                            android:background="#dbdbdb"/>
+                    </LinearLayout>
+
+                    <View
+                        android:layout_height="match_parent"
+                        android:layout_width="2px"
+                        android:background="#dbdbdb"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+                        <View
+                            android:layout_height="2px"
+                            android:layout_width="match_parent"
+                            android:background="#dbdbdb"/>
+
+                        <TextView
+                            android:id="@+id/July"
+                            android:layout_width="75dp"
+                            android:layout_height="33dp"
+                            android:clickable="true"
+                            android:gravity="center_vertical|center_horizontal"
+                            android:text="@string/July"/>
+
+                        <View
+                            android:layout_height="2px"
+                            android:layout_width="match_parent"
+                            android:background="#dbdbdb"/>
+                    </LinearLayout>
+
+                    <View
+                        android:layout_height="match_parent"
+                        android:layout_width="2px"
+                        android:background="#dbdbdb"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+                        <View
+                            android:layout_height="2px"
+                            android:layout_width="match_parent"
+                            android:background="#dbdbdb"/>
+
+                        <TextView
+                            android:id="@+id/August"
+                            android:layout_width="75dp"
+                            android:layout_height="33dp"
+                            android:clickable="true"
+                            android:gravity="center_vertical|center_horizontal"
+                            android:text="@string/August"/>
+
+                        <View
+                            android:layout_height="2px"
+                            android:layout_width="match_parent"
+                            android:background="#dbdbdb"/>
+                    </LinearLayout>
+
+                    <View
+                        android:layout_height="match_parent"
+                        android:layout_width="2px"
+                        android:background="#dbdbdb"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+                        <View
+                            android:layout_height="2px"
+                            android:layout_width="match_parent"
+                            android:background="#dbdbdb"/>
+
+                        <TextView
+                            android:id="@+id/September"
+                            android:layout_width="75dp"
+                            android:layout_height="33dp"
+                            android:clickable="true"
+                            android:gravity="center_vertical|center_horizontal"
+                            android:text="@string/September"/>
+
+                        <View
+                            android:layout_height="2px"
+                            android:layout_width="match_parent"
+                            android:background="#dbdbdb"/>
+                    </LinearLayout>
+
+                    <View
+                        android:layout_height="match_parent"
+                        android:layout_width="2px"
+                        android:background="#dbdbdb"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+                        <View
+                            android:layout_height="2px"
+                            android:layout_width="match_parent"
+                            android:background="#dbdbdb"/>
+
+                        <TextView
+                            android:id="@+id/October"
+                            android:layout_width="75dp"
+                            android:layout_height="33dp"
+                            android:clickable="true"
+                            android:gravity="center_vertical|center_horizontal"
+                            android:text="@string/October"/>
+
+                        <View
+                            android:layout_height="2px"
+                            android:layout_width="match_parent"
+                            android:background="#dbdbdb"/>
+                    </LinearLayout>
+
+                    <View
+                        android:layout_height="match_parent"
+                        android:layout_width="2px"
+                        android:background="#dbdbdb"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+                        <View
+                            android:layout_height="2px"
+                            android:layout_width="match_parent"
+                            android:background="#dbdbdb"/>
+
+                        <TextView
+                            android:id="@+id/November"
+                            android:layout_width="75dp"
+                            android:layout_height="33dp"
+                            android:clickable="true"
+                            android:gravity="center_vertical|center_horizontal"
+                            android:text="@string/November"/>
+
+                        <View
+                            android:layout_height="2px"
+                            android:layout_width="match_parent"
+                            android:background="#dbdbdb"/>
+                    </LinearLayout>
+
+                    <View
+                        android:layout_height="match_parent"
+                        android:layout_width="2px"
+                        android:background="#dbdbdb"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+                        <View
+                            android:layout_height="2px"
+                            android:layout_width="match_parent"
+                            android:background="#dbdbdb"/>
+
+                        <TextView
+                            android:id="@+id/December"
+                            android:layout_width="75dp"
+                            android:layout_height="33dp"
+                            android:clickable="true"
+                            android:gravity="center_vertical|center_horizontal"
+                            android:text="@string/December"/>
+
+                        <View
+                            android:layout_height="2px"
+                            android:layout_width="match_parent"
+                            android:background="#dbdbdb"/>
+                    </LinearLayout>
+
+                    <View
+                        android:layout_height="match_parent"
+                        android:layout_width="2px"
+                        android:background="#dbdbdb"/>
+
+                </LinearLayout>
+
+            </LinearLayout>
+        </HorizontalScrollView>
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/shadow"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginBottom="20dp"
+        android:layout_marginRight="10dp"
+        android:layout_below="@+id/caiwu_date_title">
+        <LinearLayout
+            android:id="@+id/caiwu_yijie_account"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:background="@drawable/connor_yellow"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="20dp"
+                android:gravity="center"
+                android:text="@string/Amount_settled" />
+
+            <TextView
+                android:id="@+id/caiwu_express_account"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:gravity="center"/>
+        </LinearLayout>
+
+        <ListView
+            android:id="@+id/caiwu_express_list"
+            android:layout_width="match_parent"
+            android:layout_height="400dp"
+            android:layout_below="@+id/caiwu_yijie_account"
+            android:layout_marginTop="15dp"
+            android:divider="#00000000"
+            android:dividerHeight="0dp"
+            android:listSelector="@android:color/transparent"
+            android:scrollbars="none"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/caiwu_express_list"
+            android:src="@mipmap/bowen"/>
+
+    </RelativeLayout>
+
+
+</RelativeLayout>
